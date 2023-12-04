@@ -48,3 +48,9 @@ print("Dot product of matrix is : ",dot_prod)
 
 cross_prod = np.cross(m1,m2)
 print("Cross product of matrix is : ",cross_prod)
+
+## Finding Transpose of the matrix
+trans = np.transpose(m1)
+print("Transpose of the matrix m1 : ",trans)
+
+
