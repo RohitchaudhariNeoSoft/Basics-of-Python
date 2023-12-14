@@ -18,10 +18,10 @@
 
 
 ## To read image
-f2 = open("./File Handling/P1654116.JPG",'rb')     ## To read image in binary format
-# for data in f2:
-#     print(data)         ## printing binary data
+# f2 = open("./File Handling/P1654116.JPG",'rb')     ## To read image in binary format
+# # for data in f2:
+# #     print(data)         ## printing binary data
 
-f3 = open("./File Handling/Mypic.JPG",'wb')
-for data in f2:
-    f3.write(data)
+# f3 = open("./File Handling/Mypic.JPG",'wb')   ## To make a copy of image
+# for data in f2:
+#     f3.write(data)
